@@ -5,8 +5,8 @@ using namespace std;
 
 class BoardArray : public Board {
     Entry* array;
-    int index;
-
+    int index; 
+ 
     public:
         BoardArray() {
             array = new Entry[SIZE];
